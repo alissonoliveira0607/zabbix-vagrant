@@ -1,0 +1,8 @@
+.vagrant/
+.vagrant.d/
+.vagrantvmwarefusion/
+.vagrantvmwareworkstation/
+.vagrantparallels/
+.vagrantlog/
+.vagrant-hype/
+.vagrant-vb/
