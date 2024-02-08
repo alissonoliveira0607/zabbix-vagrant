@@ -12,7 +12,7 @@ Este é um ambiente Vagrant pré-configurado para executar o servidor Zabbix em 
 1. Clone este repositório para o seu ambiente local:
 
     ```bash
-    git clone <URL_DO_SEU_REPOSITORIO>
+    git clone https://github.com/alissonoliveira0607/zabbix-vagrant.git
     cd <NOME_DO_REPOSITORIO>
     ```
 
@@ -33,7 +33,7 @@ Este é um ambiente Vagrant pré-configurado para executar o servidor Zabbix em 
 4. Acesse o frontend do Zabbix em seu navegador web do host:
 
     ```
-    http://localhost:8080/zabbix
+    http://<IP_DA_VM>:80/zabbix
     ```
 
 ## Detalhes da Configuração
@@ -48,7 +48,3 @@ Este é um ambiente Vagrant pré-configurado para executar o servidor Zabbix em 
 ### Provisão
 
 O arquivo `provision.sh` é responsável por instalar e configurar o servidor Zabbix, frontend, agente e banco de dados MariaDB.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
