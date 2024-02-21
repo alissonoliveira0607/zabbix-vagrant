@@ -39,3 +39,7 @@ sudo sed -i 's/;date.timezone =/date.timezone = America\/Sao_Paulo/' /etc/php/8.
 
 # Reinicia o servidor web Apache para aplicar as alterações
 sudo systemctl restart apache2
+
+IP=$(hostname -I | awk '{print $2}')
+
+echo "IP SERVIDOR: $IP"
