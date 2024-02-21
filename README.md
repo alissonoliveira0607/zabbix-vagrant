@@ -1,6 +1,6 @@
 # Aplicação Vagrant para Zabbix
 
-Este é um ambiente Vagrant pré-configurado para executar o servidor Zabbix em uma máquina virtual Ubuntu 22.04.
+Essa é uma stack que tem como objetivo realizar o provisionamento de um servidor Zabbix em uma máquina virtual Ubuntu 22.04.
 
 ## Requisitos
 
@@ -45,6 +45,6 @@ Este é um ambiente Vagrant pré-configurado para executar o servidor Zabbix em 
 - CPUs: 2
 - Nome: ZABBIX
 
-### Provisão
+### Provisionamento
 
 O arquivo `provision.sh` é responsável por instalar e configurar o servidor Zabbix, frontend, agente e banco de dados MariaDB.
